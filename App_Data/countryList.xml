@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ArrayOfCountryModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CountryModel>
+    <Name>Greece</Name>
+    <Capital>Athens</Capital>
+    <Continent>Europe</Continent>
+    <Currency>Euro</Currency>
+    <Population>10750000</Population>
+  </CountryModel>
+  <CountryModel>
+    <Name>Poland</Name>
+    <Capital>Warsaw </Capital>
+    <Continent>Europe</Continent>
+    <Currency>Zloty</Currency>
+    <Population>38000000</Population>
+  </CountryModel>
+  <CountryModel>
+    <Name>Albania</Name>
+    <Capital>Tirana </Capital>
+    <Continent>Europe</Continent>
+    <Currency>Lek</Currency>
+    <Population>2051021</Population>
+  </CountryModel>
+  <CountryModel>
+    <Name>Brazil</Name>
+    <Capital>Brasilia</Capital>
+    <Continent>Sth America</Continent>
+    <Currency>Real</Currency>
+    <Population>20700021</Population>
+  </CountryModel>
+</ArrayOfCountryModel>

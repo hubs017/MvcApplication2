@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Simple Web App";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+
+            </p>
+        </div>
+    </section>
+}
+<ol class="round">
+    <li class="one">
+        Wykorzystano wzorzec MVC.
+        Dzięki wykorzystaniu Interfejsu możliwa jest zmiana źródła danych bez większych modyfikacji kodu. Jako alternatywę, zaproponowano system wymiany JSON(bez implementacji).
+        Stworzono metody dostępu do danych takie jak : pobranie wszystkich państw, wybranie państwa po atrybucie(Wykorzystano do tego LINQ)
+        Wprowadzono automatyczne tworzenie pustego pliku xml na wypadek, gdy zadeklarowany nie zostanie znaleziony przez program.  
+         <p>
+            Kolejne kroki :
+        </p>
+        <p>- poprawa GUI na bardziej estetyczne i zachęcające użytkownika do korzystania z aplikacji np. dodanie flag państwa</p>
+        <p>- implementacja przetwarzania nowych źródeł danych</p>
+        <p>- edycja/usuwanie rekordów</p>
+        <p>- sortowanie listy państw w kolejności alfabetycznej(bądź innej- wybranej przez użytkownika)</p>
+        <p>- walidacja elementów zapisywanych do xml(programowa walidacja , bądź z wykorzystaniem XSD SCHEMA)</p>
+        <p>- wprowadzenie większej ilości zabezpieczeń(np. na wypadek źle zbudowanego pliku xml etc.)</p>
+        <br />
+
+    </li>
+    <li class="three">
+
+    </li>
+</ol>

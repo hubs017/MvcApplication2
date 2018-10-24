@@ -1,0 +1,64 @@
+﻿@model MvcApplication2.Models.CountryModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>CountryModel</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Capital)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Capital)
+            @Html.ValidationMessageFor(model => model.Capital)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Continent)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Continent)
+            @Html.ValidationMessageFor(model => model.Continent)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Currency)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Currency)
+            @Html.ValidationMessageFor(model => model.Currency)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Population)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Population)
+            @Html.ValidationMessageFor(model => model.Population)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
